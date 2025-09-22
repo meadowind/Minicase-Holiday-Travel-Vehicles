@@ -7,13 +7,6 @@ public class Salesperson {
         this.name = name;
     }
 
-    // Getters and Setters
-    public String getSalespersonID() { return salespersonID; }
-    public void setSalespersonID(String salespersonID) { this.salespersonID = salespersonID; }
-
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-
     @Override
     public String toString() {
         return "Salesperson [ID=" + salespersonID + ", Name=" + name + "]";
